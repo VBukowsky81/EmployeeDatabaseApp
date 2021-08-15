@@ -1,0 +1,129 @@
+﻿
+@{
+    ViewData["Title"] = "HTML Elements";
+}
+
+<div class="text-center">
+    <h1 class="display-5">Major HTML Elements</h1>
+    <p class="mt-4">Web applications work through client browsers. Clients use their browsers, to log into our web apps, through URL addresses. Then our backend logic kicks in, and does directing, and processing of client requests.</p>
+    <p class="mt-3">Biggest building blocks of HTML, and web design in general, are HTML elements.</p>
+    <p class="mt-3">There are many HTML elements. Some deal with basic text formatting like "strong" or "em", some deal with page breaks, and lines. But most important HTML elements add major content to your page. Forms, buttons, links, drop down menus, radio buttons, video and music embeddings, PDF documents, and so on.</p>
+    <p class="mt-3">Below I present some examples of important HTML elements.</p>
+    <hr />
+</div>
+<div>
+    <p class="text-center"><strong>Link Elements</strong></p>
+    <p>Many things can be done with these. Links can be made to look like buttons, can have background, hover effects, etc.</p>
+    <p class="text-left">HTML link element: <a href="https://www.google.com">Google</a></p>
+    <p class="text-left">HTML link element: <a href="https://docs.microsoft.com/en-us/">Microsoft Docs</a></p>
+    <p class="text-left">HTML link element: <a href="https://portal.azure.com/?quickstart=true#home">Azure Home</a></p>
+    <hr />
+</div>
+<div>
+    <p class="text-center"><strong>Input Fields and Forms</strong></p>
+    <p>Very important elements - this is how you take input from your users - input fields and forms, on webpages.</p>
+    <p><strong>Input Fields:</strong></p>
+    <label for="name">Some input field:</label>
+    <input type="text" id="name" name="name" required
+           minlength="4" maxlength="8" size="10">
+    <label for="name">Some input field:</label>
+    <input type="text" id="name" name="name" required
+           minlength="8" maxlength="8" size="15">
+    <p class="mt-3"><strong>Form with Submit button:</strong></p>
+    <div>
+        <form action="/action_page.php">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname">
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <hr />
+</div>
+<div>
+    <p class="text-center"><strong>Drop-Down Menus and Radio Buttons</strong></p>
+    <p>Another important set of elements. These are often used to make selections, among choices. Take a look at <a href="https://www.budget.com">Budget</a> website, for example. It has tons of drop down menus.</p>
+    <label for="cars">Drop down menu:</label>
+    <select name="cars" id="cars">
+        <option value="volvo">Samsung</option>
+        <option value="saab">Apple</option>
+        <option value="mercedes">LG</option>
+        <option value="audi">Sony</option>
+    </select>
+    <label for="cars">Drop down menu:</label>
+    <select name="cars" id="cars">
+        <option value="volvo">Option 1</option>
+        <option value="saab">Option 2</option>
+        <option value="mercedes">Option 3</option>
+        <option value="audi">Option 4</option>
+    </select>
+    <p class="mt-3"><strong>Favorite Drink:</strong></p>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Vitamin Water</label>
+    <input type="radio" id="css" name="fav_language" value="CSS">
+    <label for="css">Gatorade</label>
+    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+    <label for="javascript">Jones Soda</label>
+    <hr />
+</div>
+<div>
+    <p class="text-center"><strong>Tables</strong></p>
+    <p>Tables play very important role, in presenting data to clients. They're used all over the place. For example, your typical website will have navigation pane on the left, with navigation tabs. That is just a table, modified to look nice.</p>
+
+    <table class="mt-3" style="width:100%">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Position</th>
+        </tr>
+        <tr>
+            <td>James</td>
+            <td>Smith</td>
+            <td>Manager</td>
+        </tr>
+        <tr>
+            <td>Dolores</td>
+            <td>Jackson</td>
+            <td>Assistant Manager</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Cena</td>
+            <td>Sales Agent</td>
+        </tr>
+    </table>
+    <hr />
+</div>
+<div>
+    <p class="text-center"><strong>Audio, Images and Video</strong></p>
+    <p>Obviuosly, extremely popular content. These are presented in different ways. Video has its controls and format, audio has its own, images handle things differently, etc.</p>
+    
+    <p class="mt-2"><strong>Audio Element:</strong></p>
+    <audio controls>
+        <source src="https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_2MG.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <p class="mt-2"><strong>Video Element:</strong></p>
+    <video controls width="450">
+
+        <source src="https://download.samplelib.com/mp4/sample-5s.mp4"
+                type="video/mp4">
+        Sorry, your browser doesn't support embedded videos.
+    </video>
+
+    <p class="mt-2"><strong>Image Elements:</strong></p>
+    <img src="https://images.unsplash.com/photo-1414609245224-afa02bfb3fda?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=335&q=80" alt="Beach Sunset">
+    <img src="https://images.unsplash.com/photo-1520454974749-611b7248ffdb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80" alt="Girl in a jacket">
+    <hr />
+
+</div>
+<div>
+    <p class="text-center"><strong>Browser Graphics, Games, iFrame, etc</strong></p>
+    <p>There are many more important HTML elements that I didn't have space to go into. Like browser games, and how they work. Browser graphics formats like SVG. And many others. I will expand on some of this later.</p>
+
+    <p class="mt-3">But for now - good day!</p>
+
+
+</div>
