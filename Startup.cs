@@ -27,8 +27,8 @@ namespace DatabaseWebApp
                 options.LoginPath = "/accounts/google-login";
             }).AddGoogle(options =>
             {
-                options.ClientId = "400762303841-gfuc4eupte9ferrahavgbrab26q9le5q.apps.googleusercontent.com";
-                options.ClientSecret = "sIzZhe00_gpVZ1Lp5WNdgA6S";
+                options.ClientId = "";
+                options.ClientSecret = "";
             });
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
