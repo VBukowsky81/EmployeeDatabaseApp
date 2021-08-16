@@ -2,6 +2,7 @@
 ASP.NET 5 web application, Entity Framework, Google authenticator, database in Azure SQL, hosted on Azure etc.
 
 App published on Azure at https://employeedatabaseapp.azurewebsites.net
+
 Note: hosted on Free Tier, so might take a second to load the site.
 
 Hello, and good day
