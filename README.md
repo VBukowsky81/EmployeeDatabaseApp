@@ -12,7 +12,12 @@ Second part has a Azure SQL-hosted mock employee database, with ability to add, 
 
 Authentication implemented, and also Google provider implemented.
 
+![alt text](https://github.com/VBukowsky81/EmployeeDatabaseApp/blob/master/Other/Pic1.jpg)
+
 Just wanted to demonstrate my understanding of web applications, front-end, backend, database operations and migrations, authentication concepts, etc etc.
+
+![alt text](https://github.com/VBukowsky81/EmployeeDatabaseApp/blob/master/Other/Pic2.jpg)
+![alt text](https://github.com/VBukowsky81/EmployeeDatabaseApp/blob/master/Other/Pic3.jpg)
 
 Thank you!
 
