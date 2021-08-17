@@ -1,5 +1,5 @@
 # EmployeeDatabaseApp
-ASP.NET 5 web application, Entity Framework, Google authenticator, database in Azure SQL, hosted on Azure etc.
+ASP.NET 5 web application, Entity Framework, Google authenticator, database in Azure SQL, Azure etc.
 
 App published on Azure at https://employeedatabaseapp.azurewebsites.net
 
