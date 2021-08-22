@@ -1,4 +1,4 @@
-# EmployeeDatabaseApp
+# Employee Database Web Application
 ASP.NET 5 web application, Entity Framework, Google authenticator, Azure SQL, Azure etc.
 
 App published on Azure at https://employeedatabaseapp.azurewebsites.net
