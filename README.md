@@ -14,7 +14,7 @@ Next part, Effects page, goes into CSS, and clever JS tricks you can play, to cr
 
 Authentication implemented, and also Google provider implemented.
 
-Much can be said about web applications. ASP.NET provides an excellent foundation/framework for developing web apps in C#. ASP.NET is used not only in MVC and other web apps, but also in WebAPI's, and also in Blazor.
+Much can be said about web applications. ASP.NET provides an excellent foundation/framework for developing web apps in C#. ASP.NET is used not only in MVC and other web apps, but also in WebAPI's, and also in Blazor. In fact, I am currently building a Blazor app, with GraphQL demo.
 
 ![alt text](https://github.com/VBukowsky81/EmployeeDatabaseApp/blob/master/Other/Pic1.jpg)
 
