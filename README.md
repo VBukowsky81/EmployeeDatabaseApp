@@ -16,7 +16,7 @@ Authentication implemented, and also Google provider implemented.
 
 Much can be said about web applications. ASP.NET provides an excellent foundation/framework for developing web apps in C#. ASP.NET is used not only in MVC and other web apps, but also in WebAPI's, and also in Blazor. 
 
-In fact, I am currently building a Blazor app, with GraphQL demo. GraphQL is definatly very useful, and almost next-level REST, so I definatly wanted to post a good demo on that. And Blazor is great as well.
+In fact, I am currently building a Blazor app, with GraphQL demo. GraphQL is definatly very useful, and almost next-level REST, so I definatly wanted to post a good demo on that. And Blazor is great as well. I will probably also add a 2nd Fetch part, with gRPC imlementation - another interesting microservice architecture.
 
 ![alt text](https://github.com/VBukowsky81/EmployeeDatabaseApp/blob/master/Other/Pic1.jpg)
 
