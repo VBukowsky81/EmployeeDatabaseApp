@@ -9,8 +9,8 @@ Hello, and good day
 
 Here I present a pretty decent web application I have quickly built for demonstration. I will publish it shortly on my Azure and provide the link.
 
-So this app has few things. First, a page on all the major HTML elements, often involved in front-end development. Kinda gives a break down of all the important HTML elements.
-Next part, Effects page, goes into CSS, and clever JS tricks you can play, to create cool graphics and effects. As well as general CSS. Last part has a Azure SQL-hosted mock employee database, with ability to add, delete employees, modify their details, etc. And search ability.
+So this app has few things. First, a page on all the major HTML elements, often involved in front-end development. Gives a break down of all the important HTML elements.
+Next part, Effects page, goes into CSS, what it is about, and how it works in general, etc. Last part has a Azure SQL-hosted mock employee database, with ability to add, delete employees, modify their details, etc. And search ability.
 
 Authentication implemented, and also Google provider implemented.
 
